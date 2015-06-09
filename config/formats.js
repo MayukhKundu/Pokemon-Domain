@@ -7,7 +7,7 @@ exports.Formats = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		name: "Inverse Random (BWknd 35)",
+		name: "Pokemon Network Official (BWknd 35)",
 		section: "ORAS Singles",
 
 		team: 'random',
