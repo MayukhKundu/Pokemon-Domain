@@ -12,8 +12,7 @@ exports.Formats = [
 
 		team: 'Anything Goes',
 		
-		ruleset: ['Pokemon', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Team Preview'],
-		banlist: ['Unreleased', 'Illegal']
+		ruleset: ['Pokemon', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Team Preview', 'Unreleased', 'Illegal'],
 	},
 	{
 		name: "OU",
