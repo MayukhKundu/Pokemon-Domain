@@ -10,17 +10,10 @@ exports.Formats = [
 		name: "Pokemon Network Official ",
 		section: "ORAS Singles",
 
-		team: 'random',
-		ruleset: ['Random'],
-		onModifyPokemon: function (pokemon) {
-			pokemon.negateImmunity['Type'] = true;
-		},
-		onEffectiveness: function (typeMod, target, type, move) {
-			// The effectiveness of Freeze Dry on Water isn't reverted
-			if (move && move.id === 'freezedry' && type === 'Water') return;
-			if (move && !this.getImmunity(move, type)) return 1;
-			return -typeMod;
-		}
+		team: 'Anything Goes',
+		
+		ruleset: ['Pokemon', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Team Preview'],
+		banlist: ['Unreleased', 'Illegal']
 	},
 	{
 		name: "OU",
