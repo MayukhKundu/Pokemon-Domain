@@ -1,5 +1,5 @@
 // The server ID - a unique ID describing this Showdown server
-exports.serverid = 'cosmos';
+exports.serverid = 'pokenetwork';
 
 // The server token - to access the login database and ladder on pokemonshowdown.com
 //   This token must be registered for accessing the ladder, but you will
